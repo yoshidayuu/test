@@ -22,6 +22,6 @@ public class LoginDTO {
 		return password;
 	}
 	public void setPassword(String password){
-		this.password=password=password;
+		this.password=password;
 	}
 }

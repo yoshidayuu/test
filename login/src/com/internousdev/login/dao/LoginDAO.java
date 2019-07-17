@@ -23,7 +23,7 @@ public class LoginDAO {
 		ResultSet rs=ps.executeQuery();
 
 		if(rs.next()){
-			dto.setName(rs.getString("usrt_name"));
+			dto.setName(rs.getString("user_name"));
 			dto.setPassword(rs.getString("password"));
 
 		}
